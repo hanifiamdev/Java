@@ -6,16 +6,11 @@
 public class TipeDataString {
 	public static void main(String[] args) {
 
-		String firtName = "Hanif";
+		String firstName = "Hanif";
 		String lastName = "Amrulllah";
 
-		System.out.println(firtName);
-		System.out.println(lastName);
-		/* Output :
-			Hanif
-		    Amrulllah
-		 */
-
+		String fullName = firstName + " " + lastName;
+		System.out.println(fullName); // Output : Hanif Amrulllah
 
 	}
 }
