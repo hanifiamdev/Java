@@ -13,6 +13,6 @@ public class TipeDataBoolean {
 		System.out.println(benar); // true
 		System.out.println(salah); // false
 		System.out.println(aritmatika); // false
-		
+
 	}
 }
