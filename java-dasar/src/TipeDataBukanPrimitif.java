@@ -24,5 +24,21 @@ public class TipeDataBukanPrimitif {
 		thisByte2 = 100;
 		System.out.println(thisByte2); // 100
 
+		// Konversi Antara Tipe Data baik primitif maupun bukan primitif
+		// Jika masih setara misal int ke Integer atau float ke Float maka cara konversinya sangat mudah
+		int age = 17;
+		Integer ageObject = age;
+		int ageAgain = ageObject;
+		// Namun untuk yang tidak setara dapat gunakan  method dari objek data bukan primitif
+		// Bukan primitif ke primitif dan tidak setara
+		Integer num = 1000;
+		long thisLongs = num.shortValue();
+		float thisFloat = num.floatValue();
+
+		// Primitif ke bukan primitif dan tidak setara
+		int num2 = 1000;
+		Integer contohSetara = num2;
+		Long longNotPrimitif = Long.valueOf(num2);
+
 	}
 }
