@@ -21,6 +21,14 @@ public class Variable {
 		name = "Fachri Amrullah";
 		System.out.println(name); // Fachri Amrullah
 
+		// Kata Kunci var
+		//var name; // tanpa value untuk var akan eror
+		var fullName = "Hanif Amrullah";
+
+		// Kata Kunci final
+		final String application = "Belajar Java";
+
+		//application = "Belajar Kotlin" // Ini akan eror karena varibel final, valuenya tidak boleh di modifikasi
 
 	}
 }
